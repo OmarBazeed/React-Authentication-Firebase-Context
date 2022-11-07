@@ -33,7 +33,7 @@ const handleSubmit = (e)=>{
 
     Promise.all(promises)
     .then(()=>{
-      navigate('/')
+      navigate('/');
     })
     .catch(()=>{
       setError('failed to update profile')

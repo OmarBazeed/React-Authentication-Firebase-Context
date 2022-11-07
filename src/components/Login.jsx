@@ -23,7 +23,7 @@ const redirectPath = location.state?.path || '/' ;
     setError(false);
     setLoading(true)
     await login(mailRef.current.value , passwordRef.current.value);
-    navigate(redirectPath , {replace:true})
+    navigate(redirectPath , {replace:true} )
 
     }catch(error){
       setError('failed to Log In')
