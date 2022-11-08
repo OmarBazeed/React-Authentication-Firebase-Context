@@ -49,7 +49,7 @@ const handleSubmit = (e)=>{
     <React.Fragment>
     <div className="card" style={{minWidth:'400px'}}>
         <div className="card-body">
-            <h3 className="card-title text-center">Sign Up</h3>
+            <h3 className="card-title text-center">Update Profile</h3>
 
             {error && <Alert variant='danger'> {error} </Alert> }
 
